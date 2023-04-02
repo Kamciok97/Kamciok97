@@ -1,0 +1,44 @@
+table1 = ['Celina', 'Katarzyna', 'Marek', 'Tomasz', 'Michał']
+set1 = set(table1)
+
+table2 = ['Anna', 'Marek', 'Tomasz', 'Jacek']
+set2 = set(table2)
+
+table3 = ['Katarzyna', 'Tomasz', 'Michał', 'Jacek']
+set3 = set(table3)
+
+#Imiona ze zbiorów 1 i 2
+imiona_wspolne12 = set1.intersection(set2)
+print("Zad.1")
+print(imiona_wspolne12)
+print("")
+
+#Imiona ze zbiorów 1, 2 i 3
+imiona_wspolne123 = set1.intersection(set2, set3)
+print("Zad.2")
+print(imiona_wspolne123)
+print("")
+
+#Imiona znajdują się w 3 ale nie znajdują się w 1
+imiona_nie_wspolne31 = set3.difference(set1)
+print("Zad.3")
+print(imiona_nie_wspolne31)
+print("")
+
+#Imiona znajdujące się w 2 ale nie ma ich w 1 i 3
+imiona_nie_wspolne213 = set2.difference(set1, set3)
+print("Zad.4")
+print(imiona_nie_wspolne213)
+print("")
+
+#Imiona znajdujące się w przynajmniej jedym ze zbiorów 1, 2 i 3
+imiona_wszystkie = set1.union(set2, set3)
+print("Zad.5")
+print(imiona_wszystkie)
+print("")
+
+#Imiona znajdują się w zbiorze 1 ale nie ma ich w sumie 2 i 3
+imiona_nie_wspolne123 = set1.difference(set2.union(set3))
+print("Zad.6")
+print(imiona_nie_wspolne123)
+print("")
