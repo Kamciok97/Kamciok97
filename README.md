@@ -1,13 +1,5 @@
 ### Hello World
 
-<br>[<img align="left" alt="linked-in" src="https://www.linkedin.com/in/kamil-ksie%C5%BCarczyk-b7295a208/" />]
-[<img align="left" alt="facebook" src="https://www.facebook.com/kamciok97/" />]
-[<img align="left" alt="twitter" src="https://twitter.com/kamciok97" />]<br>
-<br>
-<img align="left" alt="react" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-<img align="left" alt="android" src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge" />
-<br>
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
